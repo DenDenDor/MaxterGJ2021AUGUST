@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:GameJam2021August/Assets/Scripts/ScriptableObjects/Artefact.cs.meta
+guid: 67558612a7c83a34692a7e3fa71f7f55
+=======
 guid: 49c903860dc88ce4b9af2694be709e97
+>>>>>>> da1b32001d023dae135d231b7397e299a2235abf:GameJam2021August/Assets/Scripts/ScriptableObjects/DefaultObject.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
