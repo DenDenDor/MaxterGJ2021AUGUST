@@ -20,9 +20,10 @@ public class Character : MonoBehaviour
             if(_artefacts.Count < 4)
             {
              _artefacts.Add(artefact);
-             Destroy(other.gameObject);
-            GameObject item =  Instantiate(other.gameObject, transform.position, Quaternion.identity);
-            item.transform.SetParent(_weaponPosition, false);
+             other.transform.SetParent(_weaponPosition, false);
+
+
+
 
             }
         }
