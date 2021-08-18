@@ -1374,6 +1374,7 @@ GameObject:
   - component: {fileID: 1447931505}
   - component: {fileID: 1447931504}
   - component: {fileID: 1447931503}
+  - component: {fileID: 1447931506}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1473,6 +1474,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1447931506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447931502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230b22bb0c0de7144ae77ee855a59326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultObject: {fileID: 11400000, guid: 1e849d4dc1397cc46bf1bb2179d4a8d6, type: 2}
 --- !u!1 &1761063418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,8 +1546,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1794218514}
   - component: {fileID: 1794218513}
-  - component: {fileID: 1794218512}
   - component: {fileID: 1794218511}
+  - component: {fileID: 1794218510}
   m_Layer: 0
   m_Name: PicsArt_08-08-08.52.54 (1)
   m_TagString: Untagged
@@ -1541,6 +1555,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1794218510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794218509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230b22bb0c0de7144ae77ee855a59326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultObject: {fileID: 11400000, guid: 3ef3036784cf60a42b1d777485b1c2c0, type: 2}
 --- !u!61 &1794218511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1567,18 +1594,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28}
   m_EdgeRadius: 0
---- !u!114 &1794218512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794218509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81f74c1067b8c4240af435cc402dbc7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1794218513
 SpriteRenderer:
   m_ObjectHideFlags: 0
