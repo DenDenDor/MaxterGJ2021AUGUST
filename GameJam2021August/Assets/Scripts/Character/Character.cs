@@ -26,5 +26,10 @@ public class Character : MonoBehaviour
 
             }
         }
+        if (other.TryGetComponent<IEnemy>(out IEnemy ienemy))
+      {
+          Debug.LogError("Co");;
+          ienemy.TakeDamge(10);
+      }
     }
 }
